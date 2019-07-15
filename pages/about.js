@@ -1,11 +1,9 @@
-import Link from 'next/link';
+import Navbar from '../components/Navbar';
 const AboutPage = () => {
     console.log("******RUNNING ABOUT COMPONENT!*******");
     return (
         <div>
-            <Link href='/'>
-                <a>Index Page</a>
-            </Link>
+            <Navbar />
             <h1>THIS IS THE ABOUT PAGE</h1>
         </div>
     )

@@ -1,11 +1,9 @@
-import Link from 'next/link';
+import Navbar from '../components/Navbar';
 const ContactPage = () => {
     console.log("******RUNNING CONTACT COMPONENT!*******");
     return (
         <div>
-            <Link href='/'>
-                <a>Index Page</a>
-            </Link>
+            <Navbar />
             <h1>THIS IS THE CONTACT PAGE</h1>
             <p>Do not contact us ever!</p>
         </div>
