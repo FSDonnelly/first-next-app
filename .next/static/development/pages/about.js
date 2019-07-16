@@ -68,7 +68,7 @@ var AboutPage = function AboutPage() {
 
 /***/ }),
 
-/***/ 1:
+/***/ 2:
 /*!*******************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fabout&absolutePagePath=C%3A%5CUsers%5Cdonne%5CDesktop%5CNext%5Cfirst-next%5Cpages%5Cabout.js ***!
   \*******************************************************************************************************************************************/
@@ -91,5 +91,5 @@ module.exports = dll_829b10deddf10e1653a8;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js"]]]);
+},[[2,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=about.js.map
