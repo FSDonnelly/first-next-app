@@ -1,5 +1,5 @@
-import React, { Component } from 'react'
-
+import axios from 'axios'
+// import React, { Component } from 'react'
 // class Index extends Component {
 //     constructor(props) {
 //         super(props);
@@ -15,14 +15,22 @@ import React, { Component } from 'react'
 //         )
 //     }
 // }
-const Index = () => {
+const Index = ({ posts }) => {
     return (
         <div>
             <h1>Our Index Page!!!</h1>
+            <ul>
+                {posts.map(post => (
+                    <li key={post.id}>{post.title}</li>
+                ))}
+            </ul>
         </div>
     )
 };
 Index.getInitialProps = async () => {
-    console.log("GET INITIAL PROPS 2.0")
-}
+    const res = await axios.get(`https://jsonplaceholder.typicode.com/posts`);
+    const { data } = res;
+    return { posts: data };
+};
+
 export default Index;
