@@ -187,12 +187,13 @@ __webpack_require__.r(__webpack_exports__);
 var _jsxFileName = "C:\\Users\\donne\\Desktop\\Next\\first-next\\pages\\post.js";
 
 
+// import { withRouter } from 'next/router'
 var Post = function Post(_ref) {
   var id = _ref.id;
   return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("h1", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 1
+      lineNumber: 2
     },
     __self: this
   }, "YOU ARE LOOKING AT POST #", id);
@@ -225,7 +226,8 @@ function () {
   };
 }();
 
-/* harmony default export */ __webpack_exports__["default"] = (Post);
+/* harmony default export */ __webpack_exports__["default"] = (Post); // const Post = (props) => <h1>YOU ARE LOOKING AT POST #{props.router.query.id}</h1>;
+// export default withRouter(Post);
 
 /***/ }),
 
