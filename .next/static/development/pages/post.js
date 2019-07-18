@@ -5793,7 +5793,7 @@ function () {
 
 /***/ }),
 
-/***/ 1:
+/***/ 0:
 /*!*****************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fpost&absolutePagePath=C%3A%5CUsers%5Cdonne%5CDesktop%5CNext%5Cfirst-next%5Cpages%5Cpost.js ***!
   \*****************************************************************************************************************************************/
@@ -5816,5 +5816,5 @@ module.exports = dll_829b10deddf10e1653a8;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js"]]]);
+},[[0,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=post.js.map
