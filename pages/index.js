@@ -28,6 +28,9 @@ class Index extends Component {
         )
     }
 }
+
+export default Index;
+
 // const Index = ({ posts }) => {
 //     return (
 //         <div>
@@ -45,5 +48,3 @@ class Index extends Component {
 //     const { data } = res;
 //     return { posts: data };
 // };
-
-export default Index;
